@@ -30,9 +30,9 @@ cp .env.example .env
 Настройте базу данных в `.env`:
 
 ```
-DB_DATABASE=root
-DB_USERNAME=root
-DB_PASSWORD=secret
+DB_DATABASE=sportdist_db
+DB_USERNAME=sportdist_user
+DB_PASSWORD=sportdist_password
 ```
 
 Сгенерируйте ключ:
