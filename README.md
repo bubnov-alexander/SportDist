@@ -9,8 +9,8 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/your-username/fitness-tracker.git
-cd fitness-tracker
+git clone https://github.com/bubnov-alexander/SportDist.git
+cd SportDist
 ```
 
 ### 2. Установка зависимостей
@@ -30,7 +30,7 @@ cp .env.example .env
 Настройте базу данных в `.env`:
 
 ```
-DB_DATABASE=fitness_db
+DB_DATABASE=root
 DB_USERNAME=root
 DB_PASSWORD=secret
 ```
@@ -56,7 +56,6 @@ php artisan serve
 ### 6. Установка Filament (опционально для админки)
 
 ```bash
-composer require filament/filament
 php artisan make:filament-user
 ```
 
