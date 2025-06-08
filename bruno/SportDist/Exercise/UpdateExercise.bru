@@ -1,0 +1,17 @@
+meta {
+  name: UpdateExercise
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{url}}/exercises/5
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "322"
+  }
+}

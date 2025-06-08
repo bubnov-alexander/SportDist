@@ -1,0 +1,17 @@
+meta {
+  name: UpdateRoutine
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{url}}/routines/3
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "title": "Name232"
+  }
+}

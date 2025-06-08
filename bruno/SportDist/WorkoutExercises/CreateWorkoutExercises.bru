@@ -1,0 +1,21 @@
+meta {
+  name: CreateWorkoutExercises
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{url}}/workout-exercises
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "workout_id": 1,
+    "exercise_id": 1,
+    "sets": 123,
+    "reps": 123,
+    "order": 3
+  }
+}

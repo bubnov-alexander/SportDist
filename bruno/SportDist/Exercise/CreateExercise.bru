@@ -1,0 +1,21 @@
+meta {
+  name: CreateExercise
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{url}}/exercises
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "test",
+    "description": "test22222",
+    "muscle_group": "tets",
+    "equipment": "123awe",
+    "duration_minutes": 123
+  }
+}

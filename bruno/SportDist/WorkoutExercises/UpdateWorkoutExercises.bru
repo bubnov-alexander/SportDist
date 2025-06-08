@@ -1,0 +1,19 @@
+meta {
+  name: UpdateWorkoutExercises
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{url}}/workout-exercises/5
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "sets": 12,
+    "reps": 2,
+    "order": 22
+  }
+}
